@@ -68,3 +68,67 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## skyde@SKY01 MINGW64 /d/skyGworkk/react_dev-projects.test
+
+```bash
+            $ npx create-react-app react_guide
+
+            Creating a new React app in D:\skyGworkk\react_dev-projects.test\react_guide.
+
+            Installing packages. This might take a couple of minutes.
+            Installing 'react', 'react-dom', and 'react-scripts' with 'cra-template...'
+
+
+            added 1389 packages in 2m
+
+            205 packages are looking for funding
+            run `npm fund` for details
+
+            `Initialized a git repository.`
+
+            Installing template dependencies using npm...
+
+            added 48 packages in 9s
+
+            205 packages are looking for funding
+            run `npm fund` for details
+            Removing template package using npm...
+
+
+            removed 1 package, and audited 1437 packages in 3s
+
+            205 packages are looking for funding
+            run `npm fund` for details
+
+            6 high severity vulnerabilities
+
+            To address all issues (including breaking changes), run:
+            npm audit fix --force
+
+            Run `npm audit` for details.
+
+            Created git commit.
+
+            Success! Created react_guide at D:\skyGworkk\react_dev-projects.test\react_guide
+            Inside that directory, you can run several commands:
+
+            npm start
+                Starts the development server.
+
+            npm run build
+                Bundles the app into static files for production.
+
+            npm test
+                Starts the test runner.
+
+            npm run eject
+                Removes this tool and copies build dependencies, configuration files    and scripts into the app directory. If you do this, you can’t go back!
+
+            We suggest that you begin by typing:
+
+            cd react_guide
+            npm start
+
+            Happy hacking!
+```
