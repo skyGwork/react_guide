@@ -1,5 +1,0 @@
-> scriptverse academy [React/ReactJS: Introduction](https://scriptverse.academy/tutorials/reactjs.html)
-
-- [Change Port Number](https://scriptverse.academy/tutorials/reactjs-change-port-number.html)
-
-`npm start`
