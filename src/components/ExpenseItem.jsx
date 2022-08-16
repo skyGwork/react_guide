@@ -1,16 +1,16 @@
-// one
+// 01-default
 // export default function ExpenseItem() {
 //   return <h2>Expense item!  </h2>;
 // }
 
-// named
+// 02-named
 // function ExpenseItem() {
 //   return <h2>Expense item! </h2>;
 // }
 
 // export { ExpenseItem };
 
-// THREE
+// 03 named+default
 
 // function ExpenseItem() {
 //   return <h2>Expense item! </h2>;
@@ -21,13 +21,13 @@
 
 // export { ExpenseItem };
 
-// FOUR
+// 04: named + named
 function ExpenseItem() {
   return <h2>Expense item! </h2>;
 }
 
 function Test() {
-  return <p>Its test</p>
-};
+  return <p>Its test</p>;
+}
 
 export { ExpenseItem, Test };

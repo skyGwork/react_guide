@@ -1,4 +1,4 @@
-// one- default
+//  01- default
 // import ExpenseItem from './components/ExpenseItem';
 // function App() {
 //   return (
@@ -8,7 +8,8 @@
 //     </div>
 //   );
 // }
-//two- named
+
+//02- named
 // import { ExpenseItem } from './components/ExpenseItem';
 
 // function App() {
@@ -20,7 +21,7 @@
 //   );
 // }
 
-//three named +default
+// 03- named +default
 
 import { ExpenseItem, Test } from './components/ExpenseItem';
 
