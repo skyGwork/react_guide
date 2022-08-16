@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <main className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
 
         <a
@@ -13,9 +13,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 
         </a>
-      </header>
+        <p className="para">Here you go</p>
+      </main>
     </div>
   );
 }
