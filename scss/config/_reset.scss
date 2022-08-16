@@ -14,6 +14,17 @@ html {
   box-sizing: border-box;
   /* 1 rem = 10px */
   font-size: 62.5%;
+
+  @include respond(noteBook1200mx) {
+    font-size: 56.25%;
+  }
+  @include respond(tab900mx) {
+    font-size: 50%;
+  }
+
+  @include respond(bigDesktop1760mi) {
+    font-size: 87.5%;
+  }
 }
 body {
   background-color: var(--backgroundColor);
@@ -79,7 +90,6 @@ img {
   object-fit: cover;
 }
 
-
 button {
   /* basic */
   display: inline-block;
@@ -92,7 +102,7 @@ button {
 
 /* form */
 form {
-  width: 90vw;
+  width: 60vw;
   max-width: var(--fixed-width);
   background: var(--white);
   border-radius: var(--borderRadius);
@@ -115,5 +125,3 @@ form input {
   border: 1px solid var(--grey-200);
   margin-bottom: 2rem;
 }
-
-
