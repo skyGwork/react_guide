@@ -3,14 +3,14 @@ body {
     @include widthAuto;
   }
 }
-form {
-  @include respond(noteBook1200mx) {
-    margin: 2rem auto;
-    max-width: 80%;
-  }
-}
+// form {
+//   @include respond(noteBook1200mx) {
+//     margin: 2rem auto;
+//     max-width: 80%;
+//   }
+// }
 
-@media (min-resolution:192dpi){
-  // high res . image
-  // background-image: url(../images/)
-}
+// @media (min-resolution:192dpi){
+// high res . image
+// background-image: url(../images/)
+// }

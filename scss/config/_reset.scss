@@ -10,9 +10,14 @@
   box-sizing: inherit;
 }
 
+// FONT DESC
+//  1rem = 10px; 10/16 = 62.5%
+//  1 rem = 9px, 9/16 = 56.25%
+//  1 rem = 8px, 8/16 = 50%
+//  1rem = 14px, 14/16 = 87.5%
+
 html {
   box-sizing: border-box;
-  /* 1 rem = 10px */
   font-size: 62.5%;
 
   @include respond(noteBook1200mx) {
